@@ -75,8 +75,11 @@ The CPU socket is the physical interface between the CPU and motherboard, determ
 
 #### Typical Values
 
-- Intel: LGA 1200, LGA 1700
-- AMD: AM4, AM5
+- PGA (Pin Grid Array): In a PGA setup, the pins are located on the CPU itself. The socket consists of holes that accommodate the CPU's pins.  Typically used by AMD (e.g., AM4 socket). Easier to replace or upgrade CPUs since the motherboard socket is usually less prone to damage if a pin bends. Bent pins can be difficult to repair or replace. CPUs are more vulnerable due to exposed pins. Examples are AM4, AM5.
+
+- LGA (Land Grid Array): In an LGA setup, the pins are located in the socket rather than on the CPU. The CPU has flat pads that contact the pins in the socket. Primarily used by Intel (e.g., LGA 1200). CPUs have a smooth surface without pins, reducing the risk of damage during handling. Generally regarded as more durable in terms of CPU installation/removal. Damage to the socket often means motherboard replacement, as the pins are fragile and difficult to repair. Refers to the flat contact pads on the CPU that connect with pins in the socket. Examples are LGA 1200, LGA 1700
+
+- BGA (Ball Grid Array): Found in embedded systems and laptops, where the CPU is soldered directly onto the motherboard, offering a compact design. Ball refers to solder balls that connect the CPU to the motherboard.
 
 #### Pros
 
