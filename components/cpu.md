@@ -20,7 +20,7 @@ Adding cores improves performance for multitasking and parallel processing tasks
 - Increases parallel processing capabilities.
 - Enhances multitasking performance.
 
-#### Cores
+#### Cons
 
 - More cores can lead to increased power consumption and heat output.
 - Not all applications can take full advantage of multiple cores.
